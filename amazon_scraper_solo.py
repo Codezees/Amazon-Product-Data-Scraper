@@ -72,7 +72,7 @@ class file_handle():
 
 file_handle = file_handle()
 
-file_loca = '/content/drive/MyDrive/Colab Notebooks/storage'     #location where all the files are stored
+file_loca = './storage2'     #location where all the files are stored
 file_asinList = file_loca + '/asinList.txt'
 file_product_url = file_loca + '/productUrls.txt'
 file_product_Data = file_loca + '/product_data.json'
