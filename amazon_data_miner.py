@@ -63,7 +63,7 @@ class AmazonScrape():
 
     def __init__(self):
 
-        file_loca = '/content/drive/MyDrive/Colab Notebooks/storage'     #location where all the files are stored
+        file_loca = './storage2'     #location where all the files are stored
         self.file_asinList = file_loca + '/asinList.txt'
         self.file_product_url = file_loca + '/productUrls.txt'
         self.file_product_Data = file_loca + '/product_data.json'
